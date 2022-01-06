@@ -176,5 +176,3 @@ try:
     run()
 except KeyboardInterrupt:
     sys.exit(0)
-
-import json
