@@ -29,7 +29,7 @@ Please execute the following commands from cloud shell
 
 **Deploy the App**
 
-1. Execute **gcloud config set project [You GCP project name]**
+1. Execute **gcloud config set project [Your GCP project name]**
 2. Deploy by executing  **gcloud app deploy**
 3. Navigate to deployed URL and you will see the message "Survey response has been succesfully reploicated in HANA Cloud"
 4. You can view the app from App engine dashboard
