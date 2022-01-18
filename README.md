@@ -18,7 +18,7 @@ Please execute the following commands from cloud shell
 
 **Test the App**
 1. Create virtual environment qresponse [it could be any environment name]
-     virtualenv --python python3 \~/envs/qresponse
+     virtualenv --python python3 \ ~ /envs/qresponse
 2. Activate virtual environment
    **source \~/envs/qresponse/bin/activate**
 3. install the requirements 
