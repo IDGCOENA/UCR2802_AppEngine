@@ -12,4 +12,26 @@ Please execute the following commands from cloud shell
 
 1. git clone    -- Clone our App engine Repo
 2. Navigate into folder where the repository was cloned. You will find the following files
-          
+         app.yaml          -->  App Engine Configuration for Deployment
+         main.py           --> Python App to replicate survey response into HANA Cloud 
+         requirements.txt  --> List of Package Dependencies         
+
+**Test the App**
+1. Create virtual environment qresponse [it could be any environment name]
+   **virtualenv --python python3 \~/envs/qresponse**
+2. Activate virtual environment
+   **source \~/envs/qresponse/bin/activate**
+3. install the requirements 
+    **pip install -r requirements.txt**
+4. Execute the application
+   **python main.py**
+5. It should execute succesfully and you shuold see the logs in the cloud shell
+
+**Deploy the App**
+
+1. Execute **gcloud config set project <You GCP project name>**
+2. Deploy by executing  **gcloud app deploy**
+3. Navigate to deployed URL and you will see the message "Survey response has been succesfully reploicated in HANA Cloud"
+4. You can view the app from App engine dashboard
+        
+      
