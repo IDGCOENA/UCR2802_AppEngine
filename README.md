@@ -2,7 +2,7 @@
 
 1. Use your GCP Trial to enable App Engine
 2. Select your GCP Project that was available "My First Project" or any of the new projects you created.
-3. Enable Cloud Shell by selecting "Activate Cloud SSurveyResponse_Qualtricshell" on your GCP Home Page
+3. Enable Cloud Shell by selecting "Activate Cloud shell" on your GCP Home Page
 4. Once you have the cloud shell provisoned, execute the command **gcloud app create** 
 5. If an authorization window appears, click Authorize
 
