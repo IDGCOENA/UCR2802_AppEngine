@@ -10,7 +10,7 @@
 **Clone App**
 Please execute the following commands from cloud shell 
 
-1. git clone    -- Clone our App engine Repo
+1. git clone   https://github.com/IDGCOENA/UCR2802_AppEngine.git  -- Clone our App engine Repo
 2. Navigate into folder where the repository was cloned. You will find the following files
          app.yaml          -->  App Engine Configuration for Deployment
          main.py           --> Python App to replicate survey response into HANA Cloud 
